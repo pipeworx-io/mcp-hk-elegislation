@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-hk-elegislation",
+  "version": "0.1.0",
+  "description": "hk-elegislation — Hong Kong Ordinances, subsidiary legislation and instruments, bilingually (English and Traditional Chinese, equally authentic), from Hong Kong e-Legislation (Department of Justice), via the bulk archives catalogued on DATA.GOV.HK. Fleet #3130.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-hk-elegislation": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "hk-elegislation"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-hk-elegislation.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-1ae181daf69e6a3283c8512fc9ab179114e77b32123773a96398c68659c1d932",
+    "sourceCommit": "a03f96ed672b8c149593c64ecbf30280cabf084c"
+  }
+}
