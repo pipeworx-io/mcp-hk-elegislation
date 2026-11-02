@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hk-elegislation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "hk-elegislation — Hong Kong Ordinances, subsidiary legislation and instruments, bilingually (English and Traditional Chinese, equally authentic), from Hong Kong e-Legislation (Department of Justice), via the bulk archives catalogued on DATA.GOV.HK. Fleet #3130.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "hk-elegislation",
     "gatewaySlug": "hk-elegislation",
-    "sourceHash": "v1-2cf9fb060d07b22f2b105e6d0e68824857025c4ed6e375698c2dd4679f329e1c",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-0e91d078b0c07dac219f0937f1d195c4af3134d486133333b4b45b233ac894fb",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
